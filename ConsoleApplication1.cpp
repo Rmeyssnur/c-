@@ -1,95 +1,93 @@
 ﻿#include <iostream>
-using namespace std;
-int hesapla(int sayi,int  sayi11) {
-    return sayi + sayi11;
-};
-int main() {
-    int sayi, sayi11;
-    cout << "lütfen bir sayi girniz:";
-    cin >> sayi >> sayi11;
-    cout << hesapla(sayi,sayi11);
+	using namespace std;
+	int main()
+	{
+		/*
+		int i = 1;
+		do {
+			cout << i << endl;
+			i++;
+		} while (i < 11);
+		cout << "10'kadar yazdırıldı";*/
 
-}
-/*
-int hesapla(int sayi) {
-    return sayi + 5;
-};
-int main() { 
-    cout<<hesapla(5);
-}*/
+		/*int a;
+		do {
+			cout << "sayi girin:" << endl;
+			cin >> a;
+		} while (a != 0);
+		cout << "döngü bitti:" << endl;*/
+
+		/*int a;
+		cout << "1:oyna 2:ayarlar3:çıkıs" << endl;
+		cout << "sayi gin :" << endl;
+		cin >> a;
+		while (a!= 3) {
+			cout << "sayi girin:" << endl;
+			cin >> a;
+		}*/
+
+		/*int sifre;
+		cout << "sifre girin:" << endl;
+		cin >> sifre;
+		while (sifre >0) {
+			cout << "sifre girin:" << endl;
+			cin >> sifre;
+		}*/
+
+		/*int a;
+		cout << "sifre girin:" << endl;
+		cin >> a;
+		while(a !=0){
+			cout << "şifre girin" << endl;
+			cin >> a;
+		}*/
+		
+		/*for (int i = 1;i < 100;i++) {
+			if (i % 13 == 0) {
+				continue;
+			}
+			if (i == 77) {
+				break;
+			}cout << i << endl;
+		}*/
+
+		/*Kullanıcı 5 kez parola girsin:3 yanlış olursa tamamen bitir (break)*/
+		/*for (int a = 0;a < 5;a++) {
+			cout << "şifre girin:" << endl;
+			cin >> a;
+			if (a == 3) {
+				break;
+			}
+		}*/
 
 
-/*
-void nesnetabanlı(string dil = "bilinmeyen deger",int yas=18) {
-    cout << "proglama dili:" << dil << endl;
-    cout << "yas bilgisi:" << yas << endl;
-};
-int main() {
-    nesnetabanlı("c++");
-    nesnetabanlı("python");
-    nesnetabanlı();
-    nesnetabanlı();
-    nesnetabanlı();
-    nesnetabanlı("java");
-}*/
-/*varsılayan değer 
-void nesnetabanlı(string dil="bilinmeyen deger") {
-    cout << "proglama dili:" << dil << endl;
-};
-int main() {
-    nesnetabanlı("c++");
-    nesnetabanlı("python");
-    nesnetabanlı();
-    nesnetabanlı();
-    nesnetabanlı();
-    nesnetabanlı("java");
-}*/
-/*
-void profil(string isim, int yas, string sehir, char sinif) {
-    cout << "kullanicin ismi:" << isim << endl;
-    cout << "kullanicin yasi:" << yas << endl;
-    cout << "kullanicin sehiri:" << sehir << endl;
-    cout << "kullaniicin sinifi:" << sinif << endl;
-}
-int main() {
-    int yas1;
-    char sinif1;
-    string sehir1, isim1;
-    cout<< "ismininizi girin";
-    cin >> isim;
-    cout << "yasinizi girin";
-    cin >> yas;
-    cout << "sehrinizi girin:";
-    cin >> sehir;
-    cout << "sinifinizi girin:";
-    cin >> sinif;
-    profil(isim, yas, sehir, sinif);
- }*/
+		/*1'den 30'a kadar sayıları yazdır hem 3'ün hemde 5'in katlarını yazdırma */
+		/*for (int i = 1;i < 31;i++) {
+			if (i % 3 == 0 || i % 5 == 0) {
+				cout << "sayilar atlandi"<<endl;
+				continue;
+			} cout << i<<endl;
+		}*/
 
-/*2-FONKSİYON ÖRNEĞİ*/
-/*void profilolustur(string isim, int yas, string nereli, char sinifi) {
-    cout << "kullanıcının ismi:" <<isim<<endl;
-    cout << "kullancinin yasi:" << yas << endl;
-    cout << "kullanıcı nereli:" << nereli << endl;
-    cout << "kullanicinin sinifi:" << sinifi << endl;
-};
-int main() {
-    profilolustur("gökçe",27,"samsun",'2');*/
-/*1-FONKSİYON KONUSU*/
-/*void benimfaksiyon() {
-    cout << "merhaba fonksiyondan bir mesaj var" << endl;
-}
-void digerfonkisyon() {
-    cout << "bu da diğer fonksiyon";
-}
-void digerrfonksiyon() {
-    cout << "merhabalar nasılsınız :";
-}
-int main()
-{
-    cout << "merhaba baslatici fonksiyondan mesaj var:";
-    benimfaksiyon();
-    digerfonkisyon();
-    digerrfonksiyon();
-}*/
+		/*
+		for (int a = 1;a < 16;a++) {
+			if (a % 2 == 0) {
+				cout << "cıft sayıları atladık :"<<endl;
+				continue;
+			}
+			cout << a << endl;
+		}*/
+
+		/*kullanıcıdan 5 sayı al ve 0 yazınca döngüyü durdur */
+		/*for (int a = 0;a < 6;a++) {
+			cout << "lütfen bir sayı girin";
+			cin>> a;
+			if (a == 0) {
+				cout << "döngü durdu:";
+				break;
+			}
+		}*/
+	}
+
+
 
